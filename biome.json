@@ -1,9 +1,9 @@
 {
 	"$schema": "https://biomejs.dev/schemas/2.3.5/schema.json",
 	"vcs": {
-		"enabled": false,
+		"enabled": true,
 		"clientKind": "git",
-		"useIgnoreFile": false
+		"useIgnoreFile": true
 	},
 	"files": {
 		"ignoreUnknown": false
@@ -15,12 +15,130 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true
-		}
-	},
-	"javascript": {
-		"formatter": {
-			"quoteStyle": "double"
+			"recommended": true,
+			"style": {
+				"useNamingConvention": {
+					"level": "error",
+					"options": {
+						"conventions": [
+							{
+								"selector": {
+									"kind": "functionParameter",
+									"scope": "any"
+								},
+								"formats": [
+									"snake_case"
+								]
+							},
+							{
+								"selector": {
+									"kind": "variable",
+									"scope": "any"
+								},
+								"formats": [
+									"snake_case"
+								]
+							},
+							{
+								"selector": {
+									"kind": "const",
+									"scope": "any"
+								},
+								"formats": [
+									"CONSTANT_CASE",
+									"snake_case"
+								]
+							}
+						]
+					}
+				}
+			},
+			"correctness": {
+				"noConstantCondition": "error",
+				"noUnreachable": "error",
+				"noUnsafeOptionalChaining": "error",
+				"noInvalidBuiltinInstantiation": "error",
+				"noUndeclaredDependencies": "error",
+				"noProcessGlobal": "error",
+				"useImportExtensions": "error",
+				"useJsonImportAttributes": "error",
+				"useHookAtTopLevel": "error",
+				"useJsxKeyInIterable": "error",
+				"useIsNan": "error",
+				"useParseIntRadix": "error",
+				"useValidTypeof": "error",
+				"useYield": "error"
+			},
+			"suspicious": {
+				"noDebugger": "error",
+				"noConsole": "error",
+				"noDocumentCookie": "error",
+				"noDuplicateAtImportRules": "error",
+				"noDuplicateCase": "error",
+				"noDuplicateClassMembers": "error",
+				"noDuplicateObjectKeys": "error",
+				"noDuplicateParameters": "error",
+				"noDuplicateProperties": "error",
+				"noEmptyBlock": "error",
+				"noIrregularWhitespace": "error",
+				"noMisleadingCharacterClass": "error",
+				"noMisleadingInstantiator": "error",
+				"noMisplacedAssertion": "error",
+				"noMisrefactoredShorthandAssign": "error",
+				"noPrototypeBuiltins": "error",
+				"noRedeclare": "error",
+				"noRedundantUseStrict": "error",
+				"noSelfCompare": "error",
+				"noShadowRestrictedNames": "error",
+				"noShorthandPropertyOverrides": "error",
+				"noSparseArray": "error",
+				"noTemplateCurlyInString": "error",
+				"noThenProperty": "error",
+				"noUnsafeNegation": "error",
+				"noUselessEscapeInString": "error",
+				"noUselessRegexBackrefs": "error",
+				"noWith": "error",
+				"noVar": "error"
+			},
+			"complexity": {
+				"noExtraBooleanCast": "error",
+				"noImplicitCoercions": "error",
+				"noUselessFragments": "error",
+				"noUselessStringConcat": "error",
+				"noUselessTernary": "error",
+				"noUselessLoneBlockStatements": "error"
+			},
+			"security": {
+				"noSecrets": {
+					"level": "error",
+					"options": {
+						"entropyThreshold": 41
+					}
+				}
+			},
+			"a11y": {
+				"useAltText": "error",
+				"useAnchorContent": "error",
+				"useAriaActivedescendantWithTabindex": "error",
+				"useAriaPropsForRole": "error",
+				"useAriaPropsSupportedByRole": "error",
+				"useButtonType": "error",
+				"useFocusableInteractive": "error",
+				"useGenericFontNames": "error",
+				"useHeadingContent": "error",
+				"useHtmlLang": "error",
+				"useIframeTitle": "error",
+				"useKeyWithClickEvents": "error",
+				"useKeyWithMouseEvents": "error",
+				"useMediaCaption": "error",
+				"useSemanticElements": "error",
+				"useValidAnchor": "error",
+				"useValidAriaProps": "error",
+				"useValidAriaRole": "error",
+				"useValidAriaValues": "error",
+				"useValidAutocomplete": "error",
+				"useValidLang": "error"
+			}
 		}
 	},
 	"assist": {
@@ -29,6 +147,19 @@
 			"source": {
 				"organizeImports": "on"
 			}
+		}
+	},
+	"javascript": {
+		"formatter": {
+			"quoteStyle": "double"
+		}
+	},
+	"html": {
+		"formatter": {
+			"enabled": true
+		},
+		"linter": {
+			"enabled": true
 		}
 	}
 }
