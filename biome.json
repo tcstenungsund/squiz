@@ -52,6 +52,7 @@
 				"noUnsafeOptionalChaining": "error",
 				"noInvalidBuiltinInstantiation": "error",
 				"noUndeclaredDependencies": "error",
+				"noUnusedVariables": "error",
 				"noProcessGlobal": "error",
 				"useImportExtensions": "error",
 				"useJsonImportAttributes": "error",
