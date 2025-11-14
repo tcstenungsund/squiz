@@ -17,5 +17,8 @@
 	"bugs": {
 		"url": "https://github.com/tcstenungsund/squiz/issues"
 	},
-	"homepage": "https://github.com/tcstenungsund/squiz#readme"
+	"homepage": "https://github.com/tcstenungsund/squiz#readme",
+	"devDependencies": {
+		"@biomejs/biome": "2.3.5"
+	}
 }
