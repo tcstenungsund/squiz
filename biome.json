@@ -26,28 +26,21 @@
 									"kind": "functionParameter",
 									"scope": "any"
 								},
-								"formats": [
-									"snake_case"
-								]
+								"formats": ["snake_case"]
 							},
 							{
 								"selector": {
 									"kind": "variable",
 									"scope": "any"
 								},
-								"formats": [
-									"snake_case"
-								]
+								"formats": ["snake_case"]
 							},
 							{
 								"selector": {
 									"kind": "const",
 									"scope": "any"
 								},
-								"formats": [
-									"CONSTANT_CASE",
-									"snake_case"
-								]
+								"formats": ["CONSTANT_CASE", "snake_case"]
 							}
 						]
 					}
