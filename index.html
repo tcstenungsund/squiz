@@ -11,6 +11,10 @@
 	</head>
 	<body>
 		<main></main>
-		<script src="./service-worker.js"></script>
+		<script>
+		if ("serviceWorker" in navigator) {
+			navigator.serviceWorker.register("./service-worker.js", { scope: "./" });
+		}
+		</script>
 	</body>
 </html>
