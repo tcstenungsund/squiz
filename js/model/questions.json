@@ -1,0 +1,79 @@
+{
+	"questions": [
+		{
+			"text": "Question1?",
+			"answers": [
+				{
+					"text": "Yes",
+					"score": {
+						"userproperty1": 1,
+						"userproperty2": 3
+					}
+				},
+				{
+					"text": "No",
+					"score": {
+						"userproperty3": 2
+					}
+				},
+				{
+					"text": "Maybe",
+					"score": {
+						"userproperty2": 1,
+						"userproperty3": 1
+					}
+				}
+			]
+		},
+		{
+			"text": "Question2?",
+			"answers": [
+				{
+					"text": "Yes",
+					"score": {
+						"userproperty1": 1,
+						"userproperty2": 3
+					}
+				},
+				{
+					"text": "No",
+					"score": {
+						"userproperty3": 2
+					}
+				},
+				{
+					"text": "Maybe",
+					"score": {
+						"userproperty2": 1,
+						"userproperty3": 1
+					}
+				}
+			]
+		},
+		{
+			"text": "Question3?",
+			"answers": [
+				{
+					"text": "Yes",
+					"score": {
+						"userproperty1": 1,
+						"userproperty2": 3
+					}
+				},
+				{
+					"text": "No",
+					"score": {
+						"userproperty3": 2
+					}
+				},
+				{
+					"text": "Maybe",
+					"score": {
+						"userproperty2": 1,
+						"userproperty3": 1
+					}
+				}
+			]
+		}
+	]
+}

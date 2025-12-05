@@ -11,10 +11,17 @@
 	</head>
 	<body>
 		<main></main>
-		<script>
-		if ("serviceWorker" in navigator) {
-			navigator.serviceWorker.register("./service-worker.js", { scope: "./" });
-		}
-		</script>
+		<footer>
+			<script>
+			if ("serviceWorker" in navigator) {
+				navigator.serviceWorker.register("./service-worker.js", {
+					scope: "./",
+				});
+			}
+			</script>
+			<script type="module" src="./js/model/model.mjs"></script>
+			<script type="module" src="./js/controller/controller.mjs"></script>
+			<script type="module" src="./js/view/view.mjs"></script>
+		</footer>
 	</body>
 </html>
