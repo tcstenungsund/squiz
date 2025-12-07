@@ -14,6 +14,10 @@ const static_files = [
 	"/offline.html",
 	"/src/img/icons/manifest-icon-192.maskable.png",
 	"/src/img/icons/manifest-icon-512.maskable.png",
+	"/js/controller/controller.mjs",
+	"/js/model/model.mjs",
+	"/js/model/questions.json",
+	"/js/view/view.mjs",
 ];
 
 // routes to cache
