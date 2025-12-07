@@ -85,4 +85,24 @@ footer {
 	padding: 8px;
 	background: var(--background-secondary);
 	color: var(--text-secondary);
+	display: flex;
+	align-items: center;
+}
+
+footer div {
+	width: 100%;
+	background: var(--text-secondary);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2px;
+}
+
+footer div p {
+	margin: 0px;
+	background: var(--background-secondary);
+	text-align: center;
+}
+
+footer div p a {
+	color: var(--text-secondary);
 }
