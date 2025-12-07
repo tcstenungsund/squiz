@@ -7,21 +7,20 @@ const cache_name = `web-app-cache-${sw_version}`;
 
 // static files to cache
 const static_files = [
-	"/sw-registration.js",
 	"/index.html",
-	"/about/index.html",
 	"/manifest.json",
-	"/offline.html",
-	"/src/img/icons/manifest-icon-192.maskable.png",
-	"/src/img/icons/manifest-icon-512.maskable.png",
+	"assets/icons/Logotyp_text_svart.svg",
+	"assets/icons/tc-s.svg",
 	"/js/controller/controller.mjs",
 	"/js/model/model.mjs",
 	"/js/model/questions.json",
 	"/js/view/view.mjs",
+	"/css/colors.css",
+	"/css/index.css",
 ];
 
 // routes to cache
-const routes = ["/", "/about"];
+const routes = ["/"];
 
 // combine static files and routes to cache
 const files_to_cache = [...routes, ...static_files];
