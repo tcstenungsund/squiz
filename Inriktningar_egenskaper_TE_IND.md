@@ -7,118 +7,183 @@ tags:
   - skolverket
 ---
 
+
 # Inriktningar och egenskaper
 
 ## Teknikprogrammet (TE)
 
-### TE – Informations- och medieteknik
-- Programmeringsintresse
-- Logiskt tänkande
-- Felsökningsförmåga
-- Strukturerad (kod/versionshantering)
-- Systemförståelse
-- Webbfokus (frontend/backend)
-- Digitalt skapande (media)
-- Användarfokus
-- Tekniknyfiken
-- Säkerhetsmedveten
-
-### TE – Teknikvetenskap
-- Stark matematisk förmåga
-- Fysikintresse
-- Abstrakt tänkande
-- Noggrannhet (modeller/antaganden)
-- Analytiskt arbetssätt
-- Modellering/simulering
-- Uthållighet
-- Kritisk granskning
-- Metodisk problemlösning
-- Datavana (beräkningsverktyg)
-
-### TE – Design och produktutveckling
+### TE - Informations- och medieteknik
+- Analytisk formaga
+- Problemlosningsformaga
+- Felsokningsformaga
+- Digital kompetens
 - Kreativitet
-- Form- och estetikkänsla
-- Användarcentrerat tänk
-- Idégenerering & iteration
-- CAD-intresse
-- Visualiseringsförmåga
-- Prototyp- och testmentalitet
-- Konstruktionsintresse
-- Kommunikationsförmåga
-- Hållbarhetstänk
+- Teknikintresse
+- Systemtankande
+- Strukturerat arbetssatt (unika men relevant - far behalla som egen)
+- Anvandarfokus (unika)
+- Sakerhetsmedvetenhet
 
-### TE – Samhällsbyggande och miljö
-- Helhetssyn (teknik–ekologi–socialt–ekonomi–estetik)
-- Hållbarhetsdriv
-- Intresse för samhällsplanering
-- Arkitektur-/byggteknikintresse
-- Rumslig förmåga (skala, plats, flöden)
-- Noggrannhet (krav/underlag)
-- Analysförmåga (konsekvenser, avvägningar)
-- Samarbetsförmåga (många intressenter)
-- Kommunikationsförmåga (presentera/förklara)
-- Ansvarskänsla (miljö- och samhällspåverkan)
+### TE - Teknikvetenskap
+- Matematisk formaga
+- Analytisk formaga
+- Abstrakt tankande
+- Problemlosningsformaga
+- Noggrannhet och kvalitet
+- Digital kompetens (tidigare Datavana)
+- Modellering och simulering (unika - behalls)
+- Teknikintresse
+- Systemtankande
+- Uthallighet
 
-### TE – Produktionsteknik
-- Processförståelse
-- Automationsintresse
-- Praktisk problemlösning
-- Förbättringsdriv (utveckla produktion)
-- Noggrannhet (metoder/kvalitet)
-- Säkerhetsmedvetenhet
-- Datadrivet tänk (mätning/utfall)
-- Planeringsförmåga (flöden, resurser)
-- Samarbetsförmåga (produktionsteam)
-- Systemtänk (hela linjen)
+### TE - Design och produktutveckling
+- Kreativitet
+- Visualiseringsformaga
+- Teknikintresse
+- Hallbarhetstank
+- Problemlosningsformaga
+- Kommunikations- och samarbetsformaga
+- Anvandarfokus
+- Systemtankande
+- Noggrannhet och kvalitet
+- Iterativt arbetssatt (unika)
 
----
+### TE - Samhallsbyggande och miljo
+- Hallbarhetstank
+- Analytisk formaga
+- Systemtankande
+- Kommunikations- och samarbetsformaga
+- Teknikintresse
+- Noggrannhet och kvalitet
+- Planeringsformaga
+- Problemlosningsformaga
+- Helhetssyn (unika)
+- Rumslig formaga (unika)
 
-## Industritekniska programmen (IND)
-
-### IND – Driftsäkerhet och underhåll
-- Säkerhetsfokus
+### TE - Produktionsteknik
+- Processforstaelse
+- Systemtankande
+- Problemlosningsformaga
+- Noggrannhet och kvalitet
+- Sakerhetsmedvetenhet
+- Analytisk formaga
 - Ansvarstagande
-- Systematiskt arbetssätt
-- Felsökningsförmåga
-- Analytisk förmåga (orsak–verkan)
-- Planering (förebyggande/strategiskt underhåll)
-- Noggrann dokumentation
-- Servicekänsla (stödja drift/produktion)
-- Flexibilitet (akuta insatser)
-- Riskbedömning
+- Planeringsformaga
+- Kommunikations- och samarbetsformaga
+- Teknikintresse
 
-### IND – Processteknik
-- Processintresse (industriella processer)
-- Noggrannhet i kvalitetskontroll
-- Säkerhetsmedvetenhet
-- Uppmärksamhet på avvikelser
-- Analytisk provtagningsvana (mät–bedöm)
-- Förståelse för styr- och reglerteknik
-- Metodisk problemlösning vid driftstörningar
-- Samarbetsförmåga (skift/operatörsmiljö)
-- Stresstålighet (övervakning & snabba beslut)
-- Ansvar för utrustning (kontroll/underhåll)
-
-### IND – Produkt och maskinteknik
-- Handlag med verktyg & utrustning
-- Mekanisk förståelse
-- Noggrannhet (mått/kvalitet)
-- Materialintresse (t.ex. metall/trä)
-- Kvalitetsmedvetenhet
-- Ritnings-/underlagsförståelse
-- Problemlösning (maskin, metod, inställningar)
-- Säkerhetsmedvetenhet i verkstadsmiljö
-- Effektivitet & ordningssinne
-- Produkthelhet (från bearbetning till färdig produkt)
-
-### IND – Svetsteknik
-- Precision (svetsfogar)
+### IND - Driftsakerhet och underhall
+- Felsokningsformaga
+- Sakerhetsmedvetenhet
+- Noggrannhet och kvalitet
+- Problemlosningsformaga
+- Ansvarstagande
+- Analytisk formaga
+- Planeringsformaga
+- Kommunikations- och samarbetsformaga
 - Praktiskt handlag
-- Tålamod
-- Kvalitetsfokus (krav & kontroll)
-- Säkerhetsmedvetenhet (heta arbeten, skydd, rutiner)
-- Materialkunskap
-- Följa metod/arbetsmoment
-- Ritnings-/tillverkningsunderlagsläsning
-- Uthållighet (repetitivt/fysiskt)
-- Standardmedvetenhet (krav/utförande)
+- Uthallighet
+
+### IND - Processteknik
+- Processforstaelse
+- Sakerhetsmedvetenhet
+- Noggrannhet och kvalitet
+- Analytisk formaga
+- Problemlosningsformaga
+- Kommunikations- och samarbetsformaga
+- Uthallighet
+- Ansvarstagande
+- Situationsmedvetenhet (unika)
+- Teknikintresse
+
+### IND - Produkt och maskinteknik
+- Praktiskt handlag
+- Mekanisk forstaelse (unika)
+- Material- och ritningsforstaelse
+- Problemlosningsformaga
+- Noggrannhet och kvalitet
+- Sakerhetsmedvetenhet
+- Effektivitet (unika)
+- Ordningssinne (unika)
+- Ansvarstagande
+- Teknikintresse
+
+### IND - Svetsteknik
+- Praktiskt handlag
+- Noggrannhet och kvalitet
+- Sakerhetsmedvetenhet
+- Material- och ritningsforstaelse
+- Problemlosningsformaga
+- Uthallighet
+- Ansvarstagande
+- Standardmedvetenhet (unika)
+- Talamod (unika)
+- Teknikintresse
+
+
+
+## Yrken efter gymnasiet 
+
+
+### TE - Informations- och medieteknik
+- Apputvecklare
+- Spelutvecklare
+- IT-sakerhet (SOC-analytiker/junior sakerhetstekniker)
+- UX/UI-designer
+- Webbutvecklare (fullstack)
+
+### TE - Teknikvetenskap
+- Robotics-/automationsingenjor
+- AI-/mjukvaruingenjor (efter vidare studier)
+- Berakningsingenjor (simulering)
+- Test- och verifieringsingenjor
+- El-/elektronikingenjor
+
+### TE - Design och produktutveckling
+- Industridesigner / produktdesigner
+- CAD-konstruktor (3D-design)
+- Prototyptekniker
+- Designingenjor
+- 3D-visualiserare
+
+### TE - Samhallsbyggande och miljo
+- Arkitekt (efter vidare studier)
+- BIM-/CAD-samordnare
+- Byggprojektledare
+- Miljosamordnare (hallbarhet i projekt)
+- Energiingenjor / energispecialist
+
+### TE - Produktionsteknik
+- Robot-/automationstekniker
+- Produktionstekniker
+- Lean-/forbattringsledare
+- Kvalitetstekniker
+- Processutvecklare
+
+### IND - Driftsakerhet och underhall
+- Servicetekniker (resa & fixa problem)
+- Underhallstekniker (mek/el)
+- Industrielektriker
+- Felsokare/diagnostekniker
+- Driftsakerhetstekniker (reliability)
+
+### IND - Processteknik
+- Processoperator (kontrollrum/overvakning)
+- Drifttekniker (ansvar i anlaggning)
+- Reningsverksoperator (miljo + teknik)
+- Kvalitetsoperator (matning/provtagning)
+- Energianlaggningsoperator
+
+### IND - Produkt och maskinteknik
+- CNC-operator (tillverka coola delar)
+- Mekanikmontor (bygga maskiner/produkter)
+- Maskinstallare / riggare
+- Matetekniker (kvalitet & precision)
+- Underhallsmekaniker
+
+### IND - Svetsteknik
+- TIG-svetsare (precision)
+- Rorsvetsare (specialist)
+- Konstruktionssvetsare (stora byggen)
+- Montagesvetsare (jobb ute pa plats)
+- Svetskontroll / NDT (vidare vag)
