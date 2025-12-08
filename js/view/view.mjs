@@ -8,35 +8,37 @@ export class View {
 		const answers_html = question.answers
 			.map(
 				(answer, index) =>
-					`<li id="${index}" class="answer">${answer.text}</li>`,
+					`<label><input id="${index}" name="answer" type="radio">${answer.text}</label>`,
 			)
 			.join("");
 
 		this.container.innerHTML = `
 			<article id="question">
 				<h1 id="questionText">${question.text}</h1>
-				<ul id="answers">
+				<form id="answers">
 					${answers_html}
-				</ul>
+				</form>
+				<div id="btn-container"></div>
 			</article>
 		`;
 	}
 
 	renderPrevBtn(handler) {
-		this.container.insertAdjacentHTML(
-			"beforeend",
-			`<button id="prev-btn">Previous</button>`,
-		);
+		this.container
+			.querySelector("#btn-container")
+			.insertAdjacentHTML(
+				"beforeend",
+				`<button id="prev-btn">Previous</button>`,
+			);
 		this.container
 			.querySelector("#prev-btn")
 			.addEventListener("click", handler);
 	}
 
 	renderNextBtn(handler) {
-		this.container.insertAdjacentHTML(
-			"beforeend",
-			`<button id="next-btn">Next</button>`,
-		);
+		this.container
+			.querySelector("#btn-container")
+			.insertAdjacentHTML("beforeend", `<button id="next-btn">Next</button>`);
 		this.container
 			.querySelector("#next-btn")
 			.addEventListener("click", handler);
