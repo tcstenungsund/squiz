@@ -1,0 +1,19 @@
+{
+  "name": "squiz",
+  "short_name": "squiz",
+  "theme_color": "#2196f3",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "./"
+  "icons": [
+	{ "{
+    "name": "My App",
+    "short_name": "MyApp",
+	"theme_color": "oklch(0.57 0.0817 263.26)",
+    "start_url": "./",
+    "display": "standalone",
+    "icons": [
+        { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+        { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png" }ZTTZ
+}
