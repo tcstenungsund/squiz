@@ -97,7 +97,7 @@ export class View {
 	}
 
 	showLoading() {
-		this.container.innerHTML = "<p>Loading questions...</p>";
+		this.container.innerHTML = `<div class="loader"></div>`;
 	}
 
 	showError(error) {

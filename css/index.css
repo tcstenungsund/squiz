@@ -1,5 +1,6 @@
 @import "colors.css";
 @import "font.css";
+@import "loading-animation.css";
 
 body {
 	font-family: "Montserrat", sans-serif;
