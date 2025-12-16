@@ -7,16 +7,21 @@ const cache_name = `web-app-cache-${sw_version}`;
 
 // static files to cache
 const static_files = [
-	"/index.html",
-	"/manifest.json",
-	"assets/icons/Logotyp_text_svart.svg",
-	"assets/icons/tc-s.svg",
-	"/js/controller/controller.mjs",
-	"/js/model/model.mjs",
-	"/js/model/questions.json",
-	"/js/view/view.mjs",
-	"/css/colors.css",
-	"/css/index.css",
+	"./index.html",
+	"./manifest.json",
+	"./assets/fonts/Montserrat-Black.ttf",
+	"./assets/fonts/Montserrat-Bold.ttf",
+	"./assets/fonts/Montserrat-Medium.ttf",
+	"./assets/icons/Logotyp_text_svart.svg",
+	"./assets/icons/tc-s.svg",
+	"./assets/icons/favicon.svg",
+	"./js/controller/controller.mjs",
+	"./js/model/model.mjs",
+	"./js/model/questions.json",
+	"./js/view/view.mjs",
+	"./css/colors.css",
+	"./css/font.css",
+	"./css/index.css",
 ];
 
 // routes to cache
