@@ -54,10 +54,14 @@ export class View {
 			.addEventListener("click", handler);
 	}
 
-	renderNextBtn(handler) {
+	renderNextBtn(handler, disabled) {
+		const disabled_attr = disabled ? "disabled" : "";
 		this.container
 			.querySelector("#btn-container")
-			.insertAdjacentHTML("beforeend", `<button id="next-btn">Next</button>`);
+			.insertAdjacentHTML(
+				"beforeend",
+				`<button id="next-btn" ${disabled_attr}>Next</button>`,
+			);
 		this.container
 			.querySelector("#next-btn")
 			.addEventListener("click", handler);
@@ -73,6 +77,10 @@ export class View {
 		this.container
 			.querySelector("#submit-btn")
 			.addEventListener("click", handler);
+	}
+
+	activateNextBtn() {
+		this.container.querySelector("#next-btn").disabled = false;
 	}
 
 	showLoading() {
