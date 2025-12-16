@@ -1,6 +1,7 @@
 {
 	"questions": [
 		{
+			"id": 0,
 			"text": "Vad passar bäst in på dig?",
 			"answers": [
 				{
@@ -11,8 +12,8 @@
 						"ted": 1,
 						"tes": 1,
 						"tep": 1,
-						"ind_drift": 1,
-						"ind_process": 1
+						"indDrift": 1,
+						"indProcess": 1
 					}
 				},
 				{
@@ -26,21 +27,22 @@
 					"text": "Jag gillar att arbeta praktiskt och bygga eller laga saker.",
 					"score": {
 						"ind": 1,
-						"ind_drift": 1,
-						"ind_product": 1,
-						"ind_svets": 1
+						"indDrift": 1,
+						"indProduct": 1,
+						"indSvets": 1
 					}
 				},
 				{
 					"text": "Jag tycker om att förstå hur system, processer eller maskiner fungerar.",
 					"score": {
 						"tep": 1,
-						"ind_process": 1
+						"indProcess": 1
 					}
 				}
 			]
 		},
 		{
+			"id": 1,
 			"text": "Under ett grupp projekt vilken roll tar du?",
 			"answers": [
 				{
@@ -78,6 +80,7 @@
 			]
 		},
 		{
+			"id": 2,
 			"text": "Under projektet ska det skapas en broschyr/affisch, vad tänker du och vilken roll tar du?",
 			"answers": [
 				{
@@ -109,6 +112,7 @@
 			]
 		},
 		{
+			"id": 2,
 			"text": "Hur vill du arbeta med andra människor?",
 			"answers": [
 				{
@@ -116,28 +120,29 @@
 					"score": {
 						"ted": 1,
 						"tes": 1,
-						"ind_process": 1
+						"indProcess": 1
 					}
 				},
 				{
 					"text": "Jag jobbar helst självständigt men med tydliga mål.",
 					"score": {
 						"tet": 1,
-						"ind_product": 1,
-						"ind_svets": 1
+						"indProduct": 1,
+						"indSvets": 1
 					}
 				},
 				{
 					"text": "Jag gillar att arbeta i team men ta en teknisk roll.",
 					"score": {
 						"tep": 1,
-						"ind_drift": 1,
-						"ind_process": 1
+						"indDrift": 1,
+						"indProcess": 1
 					}
 				}
 			]
 		},
 		{
+			"id": 3,
 			"text": "Vilket av följande skulle du helst göra i ett jobb?",
 			"answers": [
 				{
@@ -173,6 +178,7 @@
 			]
 		},
 		{
+			"id": 4,
 			"text": "Hur ser du vidare på att plugga vidare efter gymnasiet?",
 			"answers": [
 				{
@@ -199,6 +205,7 @@
 			]
 		},
 		{
+			"id": 5,
 			"text": "Tycker du om att arbeta praktiskt?",
 			"answers": [
 				{
@@ -225,6 +232,7 @@
 			]
 		},
 		{
+			"id": 6,
 			"text": "Är du en person som tycker om att upptäcka hur saker och ting fungerar?",
 			"answers": [
 				{
@@ -233,7 +241,7 @@
 						"tei": 1,
 						"tet": 1,
 						"ind": 1,
-						"ind_product": 1
+						"indProduct": 1
 					}
 				},
 				{
@@ -251,13 +259,14 @@
 			]
 		},
 		{
+			"id": 7,
 			"text": "Är du en person som föredrar rutiner och förutsägbara uppgifter?",
 			"answers": [
 				{
 					"text": "Ja, jag gillar struktur och tydliga instruktioner.",
 					"score": {
-						"ind_product": 1,
-						"ind_svets": 1
+						"indProduct": 1,
+						"indSvets": 1
 					}
 				},
 				{
@@ -268,18 +277,19 @@
 						"ted": 1,
 						"tes": 1,
 						"tep": 1,
-						"ind_process": 1
+						"indProcess": 1
 					}
 				}
 			]
 		},
 		{
+			"id": 8,
 			"text": "Ser du dig själv som en problemlösare?",
 			"answers": [
 				{
 					"text": "Ja, jag älskar att hitta lösningar, felsöka och tänka logiskt.",
 					"score": {
-						"ind_drift": 1,
+						"indDrift": 1,
 						"tei": 1
 					}
 				},
