@@ -37,7 +37,8 @@ class Controller {
 
 		if (this.model.isLastQuestion()) {
 			this.view.renderSubmitBtn(() => {
-				this.renderResult();
+				const results = this.model.getResults();
+				this.view.renderResult(results);
 			});
 		} else {
 			this.view.renderNextBtn(() => {
@@ -45,12 +46,6 @@ class Controller {
 				this.render();
 			}, selected === null);
 		}
-	}
-
-	renderResult() {
-		const results = this.model.getResults();
-
-		this.view.renderResult(results);
 	}
 }
 

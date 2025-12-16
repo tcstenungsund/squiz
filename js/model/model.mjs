@@ -44,11 +44,15 @@ export class Model {
 		}
 
 		const max_score = Math.max(...Object.values(scores));
-		const result = Object.keys(scores).filter(
+		const results = Object.keys(scores).filter(
 			(key) => scores[key] === max_score && max_score > 0,
 		);
 
-		return result;
+		for (let i = 0; i < results.length; i++) {
+			results[i] = formatLabel(results[i]);
+		}
+
+		return results;
 	}
 
 	async loadQuestions() {
@@ -76,4 +80,20 @@ export class Model {
 	isLastQuestion() {
 		return this.currentIndex === this.questions.length - 1;
 	}
+}
+
+const labels = {
+	tei: "Informations- och medieteknik",
+	tet: "Teknikvetenskap",
+	ted: "Design och produktutveckling",
+	tes: "Samhällsbyggande och miljö",
+	tep: "Produktionsteknik",
+	indDrift: "Driftsäkerhet och underhåll",
+	indProcess: "Processteknik",
+	indProduct: "Produkt och maskinteknik",
+	indSvets: "Svetsteknik",
+};
+
+function formatLabel(key) {
+	return labels[key] ?? key;
 }
