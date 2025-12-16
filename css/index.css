@@ -103,7 +103,8 @@ button[disabled] {
 	height: 48px;
 }
 
-#next-btn {
+#next-btn,
+#submit-btn {
 	right: 0;
 }
 
