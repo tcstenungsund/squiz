@@ -3,8 +3,12 @@ export class View {
 		this.container = document.querySelector("main");
 	}
 
-	renderResult(_result) {
-		// STUB
+	renderResult(result) {
+		this.container.innerHTML = `
+			<article id="results">
+				<p>${result}</p>
+			</article>
+		`;
 	}
 
 	renderQuestion(question, selected_answer, on_answer_change) {
