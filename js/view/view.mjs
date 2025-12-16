@@ -27,7 +27,7 @@ export class View {
 
 		this.container.innerHTML = `
 			<article id="question">
-				<h1 id="questionText">${question.text}</h1>
+				<h2 id="questionText">${question.text}</h2>
 				<form id="answers">
 					${answers_html}
 				</form>
