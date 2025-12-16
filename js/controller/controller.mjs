@@ -25,6 +25,7 @@ class Controller {
 
 		this.view.renderQuestion(question, selected, (value) => {
 			this.model.saveCurrentAnswer(value);
+			this.view.activateNextBtn();
 		});
 
 		if (!this.model.isFirstQuestion()) {
@@ -42,7 +43,7 @@ class Controller {
 			this.view.renderNextBtn(() => {
 				this.model.goNextQuestion();
 				this.render();
-			});
+			}, selected === null);
 		}
 	}
 
