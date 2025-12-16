@@ -1,6 +1,8 @@
 @import "colors.css";
+@import "font.css";
 
 body {
+	font-family: "Montserrat", sans-serif;
 	margin: 0px;
 	background: var(--background);
 	height: 100vh;
@@ -65,6 +67,7 @@ article form label {
 	box-sizing: border-box;
 	border-radius: 8px;
 	border: 2px solid transparent;
+	font-size: 18px;
 }
 
 article form label:has(input[type="radio"]:checked) {
@@ -88,6 +91,7 @@ button {
 	color: var(--text);
 	position: absolute;
 	transition: background-color 0.3s;
+	font-size: 18px;
 }
 
 button[disabled] {
