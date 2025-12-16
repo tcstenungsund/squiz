@@ -17,7 +17,7 @@ main {
 article {
 	display: flex;
 	flex-direction: column;
-	gap: 16px;
+	gap: 20px;
 }
 
 article h1 {
@@ -38,14 +38,21 @@ article form {
 article form label {
 	width: 100%;
 	background-color: var(--background-secondary);
-	transition: background-color 0.3s;
+	transition:
+		background-color 0.3s,
+		border-color 0.3s;
 	padding: 16px;
 	box-sizing: border-box;
 	border-radius: 8px;
+	border: 2px solid transparent;
 }
 
 article form label:has(input[type="radio"]:checked) {
 	background: var(--primary);
+}
+
+article form label:hover {
+	border-color: var(--border-color);
 }
 
 article form input[type="radio"] {
