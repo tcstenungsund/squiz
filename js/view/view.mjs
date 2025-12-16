@@ -109,5 +109,5 @@ function formatResultText(result) {
 	if (result.length === 0) return "";
 	if (result.length === 1) return result[0];
 	if (result.length === 2) return `${result[0]} eller ${result[1]}`;
-	return `${result.slice(0, -1).join(', ')} eller ${result[result.length - 1]}`;
+	return `${result.slice(0, -1).join(", ")} eller ${result[result.length - 1]}`;
 }
