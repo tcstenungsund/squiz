@@ -20,19 +20,38 @@ class Controller {
 
 	render() {
 		const question = this.model.getCurrentQuestion();
-		this.view.renderQuestion(question);
+
+		this.view.renderQuestion(
+			question,
+			this.model.getCurrentAnswer().selected,
+			(value) => {
+				this.model.saveCurrentAnswer(value);
+			},
+		);
+
 		if (!this.model.isFirstQuestion()) {
 			this.view.renderPrevBtn(() => {
 				this.model.goPrevQuestion();
 				this.render();
 			});
 		}
-		if (!this.model.isLastQuestion()) {
+
+		if (this.model.isLastQuestion()) {
+			this.view.renderSubmitBtn(() => {
+				this.renderResult();
+			});
+		} else {
 			this.view.renderNextBtn(() => {
 				this.model.goNextQuestion();
 				this.render();
 			});
 		}
+	}
+
+	renderResult() {
+		const results = this.model.getResults();
+
+		this.view.renderResult(results);
 	}
 }
 

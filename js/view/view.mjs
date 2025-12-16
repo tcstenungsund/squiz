@@ -3,13 +3,26 @@ export class View {
 		this.container = document.querySelector("main");
 	}
 
-	renderQuestion(question) {
-		// Generate HTML for answers
+	renderResult(_result) {
+		// STUB
+	}
+
+	renderQuestion(question, selected_answer, on_answer_change) {
 		const answers_html = question.answers
-			.map(
-				(answer, index) =>
-					`<label><input id="${index}" name="answer" type="radio">${answer.text}</label>`,
-			)
+			.map((answer, index) => {
+				const checked = index === selected_answer ? "checked" : "";
+				return `
+				<label>
+					<input
+						type="radio"
+						name="answer"
+						value="${index}"
+						${checked}
+					>
+					${answer.text}
+				</label>
+			`;
+			})
 			.join("");
 
 		this.container.innerHTML = `
@@ -21,6 +34,12 @@ export class View {
 				<div id="btn-container"></div>
 			</article>
 		`;
+
+		this.container.querySelector("#answers").addEventListener("change", (e) => {
+			if (e.target.name === "answer") {
+				on_answer_change(Number(e.target.value));
+			}
+		});
 	}
 
 	renderPrevBtn(handler) {
@@ -41,6 +60,18 @@ export class View {
 			.insertAdjacentHTML("beforeend", `<button id="next-btn">Next</button>`);
 		this.container
 			.querySelector("#next-btn")
+			.addEventListener("click", handler);
+	}
+
+	renderSubmitBtn(handler) {
+		this.container
+			.querySelector("#btn-container")
+			.insertAdjacentHTML(
+				"beforeend",
+				`<button id="submit-btn">Submit</button>`,
+			);
+		this.container
+			.querySelector("#submit-btn")
 			.addEventListener("click", handler);
 	}
 
