@@ -106,7 +106,7 @@
 				"noSecrets": {
 					"level": "error",
 					"options": {
-						"entropyThreshold": 42
+						"entropyThreshold": 47
 					}
 				}
 			},

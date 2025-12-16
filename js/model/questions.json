@@ -26,7 +26,6 @@
 				{
 					"text": "Jag gillar att arbeta praktiskt och bygga eller laga saker.",
 					"score": {
-						"ind": 1,
 						"indDrift": 1,
 						"indProduct": 1,
 						"indSvets": 1
@@ -49,8 +48,7 @@
 					"text": "Jag strukturerar arbetet, planerar och håller koll på detaljer.",
 					"score": {
 						"tes": 1,
-						"tet": 1,
-						"ind": 1
+						"tet": 1
 					}
 				},
 				{
@@ -60,8 +58,7 @@
 						"tet": 1,
 						"ted": 1,
 						"tes": 1,
-						"tep": 1,
-						"ind": 1
+						"tep": 1
 					}
 				},
 				{
@@ -172,7 +169,7 @@
 				{
 					"text": "Jobba praktiskt: maskiner, verkstad, svetsning eller service.",
 					"score": {
-						"ind": 1
+						"ind_svets": 1
 					}
 				}
 			]
@@ -192,14 +189,14 @@
 					"text": "Kanske senare – men först vill jag jobba.",
 					"score": {
 						"tep": 1,
-						"ted": 1,
-						"ind": 1
+						"ted": 1
 					}
 				},
 				{
 					"text": "Jag vill börja jobba direkt.",
 					"score": {
-						"ind": 1
+						"ind_svets": 1,
+						"ind_process": 1
 					}
 				}
 			]
@@ -211,7 +208,7 @@
 				{
 					"text": "Ja, jag trivs bäst när jag får göra saker med händerna.",
 					"score": {
-						"ind": 1,
+						"ind_process": 1,
 						"tep": 1
 					}
 				},
@@ -240,7 +237,6 @@
 					"score": {
 						"tei": 1,
 						"tet": 1,
-						"ind": 1,
 						"indProduct": 1
 					}
 				},

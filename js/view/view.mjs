@@ -4,9 +4,18 @@ export class View {
 	}
 
 	renderResult(result) {
+		let result_header;
+
+		if (result.length === 1) {
+			result_header = "Den linje som passar dig bäst är:";
+		} else {
+			result_header = "De linjer som passar dig bäst är;";
+		}
+
 		this.container.innerHTML = `
 			<article id="results">
-				<p>${result}</p>
+				<p>${result_header}</p>
+				<h2>${formatResultText(result)}!</h2>
 			</article>
 		`;
 	}
@@ -94,4 +103,11 @@ export class View {
 	showError(error) {
 		document.body.innerHTML += `<div class="error">${error}</div>`;
 	}
+}
+
+function formatResultText(result) {
+	if (result.length === 0) return "";
+	if (result.length === 1) return result[0];
+	if (result.length === 2) return `${result[0]} eller ${result[1]}`;
+	return `${result.slice(0, -1).join(', ')} eller ${result[result.length - 1]}`;
 }
