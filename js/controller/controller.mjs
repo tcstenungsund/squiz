@@ -20,14 +20,12 @@ class Controller {
 
 	render() {
 		const question = this.model.getCurrentQuestion();
+		const current_answer = this.model.getCurrentAnswer();
+		const selected = current_answer ? current_answer.selected : null;
 
-		this.view.renderQuestion(
-			question,
-			this.model.getCurrentAnswer().selected,
-			(value) => {
-				this.model.saveCurrentAnswer(value);
-			},
-		);
+		this.view.renderQuestion(question, selected, (value) => {
+			this.model.saveCurrentAnswer(value);
+		});
 
 		if (!this.model.isFirstQuestion()) {
 			this.view.renderPrevBtn(() => {
