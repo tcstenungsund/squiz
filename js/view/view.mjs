@@ -3,7 +3,7 @@ export class View {
 		this.container = document.querySelector("main");
 	}
 
-	renderResult(result) {
+	renderResult(result, image_path) {
 		let result_header;
 
 		if (result.length === 1) {
@@ -18,6 +18,8 @@ export class View {
 				<h2>${formatResultText(result)}!</h2>
 			</article>
 		`;
+
+		this.container.style.backgroundImage = `url(${image_path})`;
 	}
 
 	renderQuestion(question, selected_answer, on_answer_change) {

@@ -4,6 +4,7 @@ export class Model {
 	constructor() {
 		this.questions = [];
 		this.currentIndex = 0;
+		this.results = [];
 		this.answerStore = new AnswerStore();
 	}
 
@@ -18,7 +19,7 @@ export class Model {
 		return this.answerStore.getAnswer(question.id);
 	}
 
-	getResults() {
+	calculateResults() {
 		const scores = {
 			tei: 0,
 			tet: 0,
@@ -44,15 +45,23 @@ export class Model {
 		}
 
 		const max_score = Math.max(...Object.values(scores));
-		const results = Object.keys(scores).filter(
+		this.results = Object.keys(scores).filter(
 			(key) => scores[key] === max_score && max_score > 0,
 		);
+	}
 
-		for (let i = 0; i < results.length; i++) {
-			results[i] = formatLabel(results[i]);
+	getResultImage() {
+		return `../assets/backgrounds/${this.results[0]}.png`;
+	}
+
+	getResults() {
+		const results_labels = [];
+
+		for (let i = 0; i < this.results.length; i++) {
+			results_labels.push(formatLabel(this.results[i]));
 		}
 
-		return results;
+		return results_labels;
 	}
 
 	async loadQuestions() {
