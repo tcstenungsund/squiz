@@ -60,7 +60,7 @@ export class View {
 			.querySelector("#btn-container")
 			.insertAdjacentHTML(
 				"beforeend",
-				`<button id="prev-btn">Previous</button>`,
+				`<button id="prev-btn">Föregående</button>`,
 			);
 		this.container
 			.querySelector("#prev-btn")
@@ -73,7 +73,7 @@ export class View {
 			.querySelector("#btn-container")
 			.insertAdjacentHTML(
 				"beforeend",
-				`<button id="next-btn" ${disabled_attr}>Next</button>`,
+				`<button id="next-btn" ${disabled_attr}>Nästa</button>`,
 			);
 		this.container
 			.querySelector("#next-btn")
@@ -85,7 +85,7 @@ export class View {
 			.querySelector("#btn-container")
 			.insertAdjacentHTML(
 				"beforeend",
-				`<button id="submit-btn">Submit</button>`,
+				`<button id="submit-btn">Slutför</button>`,
 			);
 		this.container
 			.querySelector("#submit-btn")
