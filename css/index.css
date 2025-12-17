@@ -36,12 +36,17 @@ header h1 {
 
 main {
 	padding: 0px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 article {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+	width: 100%;
+	max-width: 800px;
 }
 
 article h2 {
