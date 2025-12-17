@@ -37,8 +37,12 @@ class Controller {
 
 		if (this.model.isLastQuestion()) {
 			this.view.renderSubmitBtn(() => {
+				this.model.calculateResults();
+
+				const image_path = this.model.getResultImage();
 				const results = this.model.getResults();
-				this.view.renderResult(results);
+
+				this.view.renderResult(results, image_path);
 			});
 		} else {
 			this.view.renderNextBtn(() => {

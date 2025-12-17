@@ -37,10 +37,43 @@ main {
 	padding: 0px 40px;
 }
 
+main:has(#results) {
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-color: #0009;
+	background-blend-mode: darken;
+}
+
 article {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+}
+
+#results {
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+#results > * {
+	color: var(--background);
+	text-shadow:
+		0px 0px 5px black,
+		0px 0px 10px black;
+}
+
+#results p {
+	margin: 0px;
+	font-size: 4vw;
+}
+
+#results h2 {
+	font-size: 7vw;
+
+	/* hacky solution for pushing text up in a flex container */
+	margin-bottom: 15%;
 }
 
 article h2 {
