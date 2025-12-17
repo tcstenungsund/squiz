@@ -8,12 +8,12 @@
 					"text": "Jag analyserar gärna situationer och tänker logiskt.",
 					"score": {
 						"tei": 1,
-						"tet": 1,
+						"tet": 2,
 						"ted": 1,
-						"tes": 1,
-						"tep": 1,
-						"indDrift": 1,
-						"indProcess": 1
+						"tes": 2,
+						"tep": 2,
+						"indDrift": 4,
+						"indProcess": 2
 					}
 				},
 				{
@@ -26,16 +26,16 @@
 				{
 					"text": "Jag gillar att arbeta praktiskt och bygga eller laga saker.",
 					"score": {
-						"indDrift": 1,
-						"indProduct": 1,
-						"indSvets": 1
+						"indDrift": 3,
+						"indProduct": 4,
+						"indSvets": 3
 					}
 				},
 				{
 					"text": "Jag tycker om att förstå hur system, processer eller maskiner fungerar.",
 					"score": {
-						"tep": 1,
-						"indProcess": 1
+						"tep": 3,
+						"indProcess": 2
 					}
 				}
 			]
@@ -54,11 +54,11 @@
 				{
 					"text": "Jag är problemlösaren som hittar lösningar när något går fel.",
 					"score": {
-						"tei": 1,
+						"tei": 2,
 						"tet": 1,
 						"ted": 1,
-						"tes": 1,
-						"tep": 1
+						"tes": 2,
+						"tep": 2
 					}
 				},
 				{
@@ -84,7 +84,7 @@
 					"text": "Hur strukturerar vi informationen bäst? – Jag organiserar och planerar.",
 					"score": {
 						"tei": 1,
-						"tes": 1
+						"tes": 2
 					}
 				},
 				{
@@ -103,7 +103,7 @@
 					"text": "Jag tänker på målgruppens behov – hur blir den lätt att använda/läsa?",
 					"score": {
 						"tei": 1,
-						"ted": 1
+						"ted": 2
 					}
 				}
 			]
@@ -116,24 +116,23 @@
 					"text": "Jag samarbetar gärna och kommunicerar aktivt i grupp.",
 					"score": {
 						"ted": 1,
-						"tes": 1,
-						"indProcess": 1
+						"tes": 2,
+						"indProcess": 2
 					}
 				},
 				{
 					"text": "Jag jobbar helst självständigt men med tydliga mål.",
 					"score": {
-						"tet": 1,
-						"indProduct": 1,
-						"indSvets": 1
+						"indProduct": 4,
+						"indSvets": 2
 					}
 				},
 				{
 					"text": "Jag gillar att arbeta i team men ta en teknisk roll.",
 					"score": {
 						"tep": 1,
-						"indDrift": 1,
-						"indProcess": 1
+						"indDrift": 4,
+						"indProcess": 3
 					}
 				}
 			]
@@ -145,31 +144,31 @@
 				{
 					"text": "Programmera, utveckla system eller jobba digitalt.",
 					"score": {
-						"tei": 1
+						"tei": 2
 					}
 				},
 				{
 					"text": "Räkna, modellera, simulera eller lösa avancerade tekniska problem.",
 					"score": {
-						"tet": 1
+						"tet": 2
 					}
 				},
 				{
 					"text": "Designa produkter, 3D-modellera eller jobba kreativt.",
 					"score": {
-						"ted": 1
+						"ted": 2
 					}
 				},
 				{
 					"text": "Planera byggprojekt, tänka hållbarhet eller arbeta med samhällsutveckling.",
 					"score": {
-						"tes": 1
+						"tes": 3
 					}
 				},
 				{
 					"text": "Jobba praktiskt: maskiner, verkstad, svetsning eller service.",
 					"score": {
-						"ind_svets": 1
+						"indSvets": 4
 					}
 				}
 			]
@@ -181,8 +180,8 @@
 				{
 					"text": "Jag vill gärna läsa vidare på högskola/universitet.",
 					"score": {
-						"tet": 1,
-						"tes": 1
+						"tet": 2,
+						"tes": 2
 					}
 				},
 				{
@@ -195,8 +194,8 @@
 				{
 					"text": "Jag vill börja jobba direkt.",
 					"score": {
-						"ind_svets": 1,
-						"ind_process": 1
+						"indSvets": 3,
+						"indProcess": 2
 					}
 				}
 			]
@@ -208,7 +207,7 @@
 				{
 					"text": "Ja, jag trivs bäst när jag får göra saker med händerna.",
 					"score": {
-						"ind_process": 1,
+						"indProcess": 1,
 						"tep": 1
 					}
 				},
@@ -216,14 +215,14 @@
 					"text": "Ibland, men jag vill helst kombinera det med teknik eller design.",
 					"score": {
 						"ted": 1,
-						"tep": 1
+						"tep": 3
 					}
 				},
 				{
 					"text": "Nej, jag föredrar teoretiskt eller digitalt arbete.",
 					"score": {
 						"tei": 1,
-						"tet": 1
+						"tet": 2
 					}
 				}
 			]
@@ -237,7 +236,7 @@
 					"score": {
 						"tei": 1,
 						"tet": 1,
-						"indProduct": 1
+						"indProduct": 4
 					}
 				},
 				{
@@ -261,8 +260,8 @@
 				{
 					"text": "Ja, jag gillar struktur och tydliga instruktioner.",
 					"score": {
-						"indProduct": 1,
-						"indSvets": 1
+						"indProduct": 3,
+						"indSvets": 3
 					}
 				},
 				{
@@ -272,8 +271,8 @@
 						"tet": 1,
 						"ted": 1,
 						"tes": 1,
-						"tep": 1,
-						"indProcess": 1
+						"tep": 2,
+						"indProcess": 3
 					}
 				}
 			]
@@ -285,14 +284,14 @@
 				{
 					"text": "Ja, jag älskar att hitta lösningar, felsöka och tänka logiskt.",
 					"score": {
-						"indDrift": 1,
+						"indDrift": 4,
 						"tei": 1
 					}
 				},
 				{
 					"text": "Ja, men mer genom att analysera och tänka matematiskt.",
 					"score": {
-						"tet": 1
+						"tet": 2
 					}
 				},
 				{
