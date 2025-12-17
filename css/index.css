@@ -18,15 +18,16 @@ header {
 	align-items: center;
 	justify-content: space-around;
 	background: var(--primary);
-	padding: 24px 0px;
+	padding: 10px 0px;
 }
 
 header img {
 	width: 10vw;
+	max-width: 60px;
 }
 
 header h1 {
-	font-size: 5vw;
+	font-size: clamp(16px, 4vw, 36px);
 	font-weight: bold;
 	text-align: center;
 	margin: 0;
@@ -35,6 +36,9 @@ header h1 {
 
 main {
 	padding: 0px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 main:has(#results) {
@@ -49,6 +53,8 @@ article {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+	width: 100%;
+	max-width: 800px;
 }
 
 #results {
