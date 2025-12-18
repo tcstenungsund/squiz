@@ -82,10 +82,7 @@ export class View {
 	renderSubmitBtn(handler) {
 		this.container
 			.querySelector("#btn-container")
-			.insertAdjacentHTML(
-				"beforeend",
-				`<button id="submit-btn">Slutför</button>`,
-			);
+			.insertAdjacentHTML("beforeend", `<button id="submit-btn"></button>`);
 		this.container
 			.querySelector("#submit-btn")
 			.addEventListener("click", handler);
