@@ -51,7 +51,7 @@ export class Model {
 	}
 
 	getResultImage() {
-		return `../assets/backgrounds/${this.results[0]}.png`;
+		return `./assets/backgrounds/${this.results[0]}.png`;
 	}
 
 	getResults() {
