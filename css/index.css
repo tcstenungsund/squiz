@@ -125,6 +125,7 @@ article form input[type="radio"] {
 
 button {
 	width: 30%;
+	height: 50px;
 	padding: 16px;
 	border-radius: 8px;
 	border: none;
