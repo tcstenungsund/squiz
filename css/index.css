@@ -39,6 +39,7 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex: 1;
 }
 
 main:has(#results) {
@@ -124,6 +125,7 @@ article form input[type="radio"] {
 
 button {
 	width: 30%;
+	height: 50px;
 	padding: 16px;
 	border-radius: 8px;
 	border: none;
@@ -143,12 +145,28 @@ button[disabled] {
 	height: 48px;
 }
 
-#next-btn,
+#next-btn {
+	background-image: url("../assets/icons/arrow.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px 20px;
+	transform: scaleX(-1);
+	right: 0;
+}
+
 #submit-btn {
+	background-image: url("../assets/icons/checkmark.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px 20px;
 	right: 0;
 }
 
 #prev-btn {
+	background-image: url("../assets/icons/arrow.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px 20px;
 	left: 0;
 }
 

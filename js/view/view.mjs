@@ -60,10 +60,7 @@ export class View {
 	renderPrevBtn(handler) {
 		this.container
 			.querySelector("#btn-container")
-			.insertAdjacentHTML(
-				"beforeend",
-				`<button id="prev-btn">Föregående</button>`,
-			);
+			.insertAdjacentHTML("beforeend", `<button id="prev-btn"></button>`);
 		this.container
 			.querySelector("#prev-btn")
 			.addEventListener("click", handler);
@@ -75,7 +72,7 @@ export class View {
 			.querySelector("#btn-container")
 			.insertAdjacentHTML(
 				"beforeend",
-				`<button id="next-btn" ${disabled_attr}>Nästa</button>`,
+				`<button id="next-btn" ${disabled_attr}></button>`,
 			);
 		this.container
 			.querySelector("#next-btn")
@@ -85,10 +82,7 @@ export class View {
 	renderSubmitBtn(handler) {
 		this.container
 			.querySelector("#btn-container")
-			.insertAdjacentHTML(
-				"beforeend",
-				`<button id="submit-btn">Slutför</button>`,
-			);
+			.insertAdjacentHTML("beforeend", `<button id="submit-btn"></button>`);
 		this.container
 			.querySelector("#submit-btn")
 			.addEventListener("click", handler);
