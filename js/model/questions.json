@@ -1,0 +1,306 @@
+{
+	"questions": [
+		{
+			"id": 0,
+			"text": "Vad passar bäst in på dig?",
+			"answers": [
+				{
+					"text": "Jag analyserar gärna situationer och tänker logiskt.",
+					"score": {
+						"tei": 1,
+						"tet": 2,
+						"ted": 1,
+						"tes": 2,
+						"tep": 2,
+						"indDrift": 4,
+						"indProcess": 2
+					}
+				},
+				{
+					"text": "Jag gillar att skapa, designa och testa idéer.",
+					"score": {
+						"ted": 1,
+						"tei": 1
+					}
+				},
+				{
+					"text": "Jag gillar att arbeta praktiskt och bygga eller laga saker.",
+					"score": {
+						"indDrift": 3,
+						"indProduct": 4,
+						"indSvets": 3
+					}
+				},
+				{
+					"text": "Jag tycker om att förstå hur system, processer eller maskiner fungerar.",
+					"score": {
+						"tep": 3,
+						"indProcess": 2
+					}
+				}
+			]
+		},
+		{
+			"id": 1,
+			"text": "Vilken roll tar du under ett grupprojekt?",
+			"answers": [
+				{
+					"text": "Jag strukturerar arbetet, planerar och håller koll på detaljer.",
+					"score": {
+						"tes": 1,
+						"tet": 1
+					}
+				},
+				{
+					"text": "Jag är problemlösaren som hittar lösningar när något går fel.",
+					"score": {
+						"tei": 2,
+						"tet": 1,
+						"ted": 1,
+						"tes": 2,
+						"tep": 2
+					}
+				},
+				{
+					"text": "Jag tar hand om det tekniska: program, verktyg, system.",
+					"score": {
+						"tei": 1,
+						"tet": 1
+					}
+				},
+				{
+					"text": "Jag är den kreativa som designar, ritar, skissar eller visualiserar.",
+					"score": {
+						"ted": 1
+					}
+				}
+			]
+		},
+		{
+			"id": 2,
+			"text": "Under projektet ska det skapas en broschyr/affisch, vad tänker du och vilken roll tar du?",
+			"answers": [
+				{
+					"text": "Hur strukturerar vi informationen bäst? – Jag organiserar och planerar.",
+					"score": {
+						"tei": 1,
+						"tes": 2
+					}
+				},
+				{
+					"text": "Jag kan designa layout, färg, form och illustrationer!",
+					"score": {
+						"ted": 1
+					}
+				},
+				{
+					"text": "Jag kan göra det digitalt – grafik, kod, mallar.",
+					"score": {
+						"tei": 1
+					}
+				},
+				{
+					"text": "Jag tänker på målgruppens behov – hur blir den lätt att använda/läsa?",
+					"score": {
+						"tei": 1,
+						"ted": 2
+					}
+				}
+			]
+		},
+		{
+			"id": 2,
+			"text": "Hur vill du arbeta med andra människor?",
+			"answers": [
+				{
+					"text": "Jag samarbetar gärna och kommunicerar aktivt i grupp.",
+					"score": {
+						"ted": 1,
+						"tes": 2,
+						"indProcess": 2
+					}
+				},
+				{
+					"text": "Jag jobbar helst självständigt men med tydliga mål.",
+					"score": {
+						"indProduct": 4,
+						"indSvets": 2
+					}
+				},
+				{
+					"text": "Jag gillar att arbeta i team men ta en teknisk roll.",
+					"score": {
+						"tep": 1,
+						"indDrift": 4,
+						"indProcess": 3
+					}
+				}
+			]
+		},
+		{
+			"id": 3,
+			"text": "Vilket av följande skulle du helst göra i ett jobb?",
+			"answers": [
+				{
+					"text": "Programmera, utveckla system eller jobba digitalt.",
+					"score": {
+						"tei": 2
+					}
+				},
+				{
+					"text": "Räkna, modellera, simulera eller lösa avancerade tekniska problem.",
+					"score": {
+						"tet": 2
+					}
+				},
+				{
+					"text": "Designa produkter, 3D-modellera eller jobba kreativt.",
+					"score": {
+						"ted": 2
+					}
+				},
+				{
+					"text": "Planera byggprojekt, tänka hållbarhet eller arbeta med samhällsutveckling.",
+					"score": {
+						"tes": 3
+					}
+				},
+				{
+					"text": "Jobba praktiskt: maskiner, verkstad, svetsning eller service.",
+					"score": {
+						"indSvets": 4
+					}
+				}
+			]
+		},
+		{
+			"id": 4,
+			"text": "Hur ser du på att plugga vidare efter gymnasiet?",
+			"answers": [
+				{
+					"text": "Jag vill gärna läsa vidare på högskola/universitet.",
+					"score": {
+						"tet": 2,
+						"tes": 2
+					}
+				},
+				{
+					"text": "Kanske senare – men först vill jag jobba.",
+					"score": {
+						"tep": 1,
+						"ted": 1
+					}
+				},
+				{
+					"text": "Jag vill börja jobba direkt.",
+					"score": {
+						"indSvets": 3,
+						"indProcess": 2
+					}
+				}
+			]
+		},
+		{
+			"id": 5,
+			"text": "Tycker du om att arbeta praktiskt?",
+			"answers": [
+				{
+					"text": "Ja, jag trivs bäst när jag får göra saker med händerna.",
+					"score": {
+						"indProcess": 1,
+						"tep": 1
+					}
+				},
+				{
+					"text": "Ibland, men jag vill helst kombinera det med teknik eller design.",
+					"score": {
+						"ted": 1,
+						"tep": 3
+					}
+				},
+				{
+					"text": "Nej, jag föredrar teoretiskt eller digitalt arbete.",
+					"score": {
+						"tei": 1,
+						"tet": 2
+					}
+				}
+			]
+		},
+		{
+			"id": 6,
+			"text": "Vad är du mest intresserad av att lära dig mer om?",
+			"answers": [
+				{
+					"text": "Jag vill lära mig hur maskiner, system eller program funkar.",
+					"score": {
+						"tei": 1,
+						"tet": 1,
+						"indProduct": 4
+					}
+				},
+				{
+					"text": "Jag vill lära mig mer om digitala grejer: hur appar, IT och system hänger ihop.",
+					"score": {
+						"tei": 1
+					}
+				},
+				{
+					"text": "Jag vill lära mig mer om form, användning och design.",
+					"score": {
+						"ted": 1
+					}
+				}
+			]
+		},
+		{
+			"id": 7,
+			"text": "Är du en person som föredrar rutiner och förutsägbara uppgifter?",
+			"answers": [
+				{
+					"text": "Ja, jag gillar struktur och tydliga instruktioner.",
+					"score": {
+						"indProduct": 3,
+						"indSvets": 3
+					}
+				},
+				{
+					"text": "Nej, jag vill ha variation och lösa problem som dyker upp.",
+					"score": {
+						"tei": 1,
+						"tet": 1,
+						"ted": 1,
+						"tes": 1,
+						"tep": 2,
+						"indProcess": 3
+					}
+				}
+			]
+		},
+		{
+			"id": 8,
+			"text": "Hur ser du dig själv som en problemlösare?",
+			"answers": [
+				{
+					"text": "Jag älskar att hitta lösningar, felsöka och tänka logiskt.",
+					"score": {
+						"indDrift": 4,
+						"tei": 1
+					}
+				},
+				{
+					"text": "Jag gillar att analysera och tänka matematiskt.",
+					"score": {
+						"tet": 2
+					}
+				},
+				{
+					"text": "Jag använder gärna kreativitet och designlösningar.",
+					"score": {
+						"ted": 1
+					}
+				}
+			]
+		}
+	]
+}

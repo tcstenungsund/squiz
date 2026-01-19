@@ -1,0 +1,198 @@
+@import "colors.css";
+@import "font.css";
+@import "loading-animation.css";
+
+body {
+	font-family: "Montserrat", sans-serif;
+	margin: 0px;
+	background: var(--background);
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: var(--primary);
+	padding: 10px 0px;
+}
+
+header img {
+	width: 10vw;
+	max-width: 60px;
+}
+
+header h1 {
+	font-size: clamp(16px, 4vw, 36px);
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+	white-space: nowrap;
+}
+
+main {
+	padding: 0px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+}
+
+main:has(#results) {
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-color: #0009;
+	background-blend-mode: darken;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 100%;
+	max-width: 800px;
+}
+
+#results {
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+#results > * {
+	color: var(--background);
+	text-shadow:
+		0px 0px 5px black,
+		0px 0px 10px black;
+}
+
+#results p {
+	margin: 0px;
+	font-size: 4vw;
+}
+
+#results h2 {
+	font-size: 7vw;
+
+	/* hacky solution for pushing text up in a flex container */
+	margin-bottom: 15%;
+}
+
+article h2 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+}
+
+article form {
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+article form label {
+	width: 100%;
+	background-color: var(--background-secondary);
+	transition:
+		background-color 0.3s,
+		border-color 0.3s;
+	padding: 16px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	border: 2px solid transparent;
+	font-size: 18px;
+}
+
+article form label:has(input[type="radio"]:checked) {
+	background: var(--primary);
+}
+
+article form label:hover {
+	border-color: var(--border-color);
+}
+
+article form input[type="radio"] {
+	display: none;
+}
+
+button {
+	width: 30%;
+	height: 50px;
+	padding: 16px;
+	border-radius: 8px;
+	border: none;
+	background: var(--background-tertiary);
+	color: var(--text);
+	position: absolute;
+	transition: background-color 0.3s;
+	font-size: 18px;
+}
+
+button[disabled] {
+	background: var(--background-secondary);
+}
+
+#btn-container {
+	position: relative;
+	height: 48px;
+}
+
+#next-btn {
+	background-image: url("../assets/icons/arrow.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px 20px;
+	transform: scaleX(-1);
+	right: 0;
+}
+
+#submit-btn {
+	background-image: url("../assets/icons/checkmark.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px 20px;
+	right: 0;
+}
+
+#prev-btn {
+	background-image: url("../assets/icons/arrow.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px 20px;
+	left: 0;
+}
+
+footer {
+	height: 32px;
+	padding: 8px;
+	background: var(--background-secondary);
+	color: var(--text-secondary);
+	display: flex;
+	align-items: center;
+}
+
+footer div {
+	width: 100%;
+	background: var(--text-secondary);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2px;
+}
+
+footer div p {
+	margin: 0px;
+	background: var(--background-secondary);
+	text-align: center;
+}
+
+footer div p a {
+	color: var(--text-secondary);
+}

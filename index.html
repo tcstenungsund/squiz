@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Squiz</title>
+		<title>Vilken inriktning passar dig?</title>
 		<meta charset="UTF-8">
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1.0, viewport-fit=cover"
 		>
+		<link rel="icon" type="image/svg+xml" href="./assets/icons/favicon.svg">
 		<link rel="manifest" href="./manifest.json">
+		<link rel="stylesheet" href="./css/index.css">
 	</head>
 	<body>
+		<header>
+			<img src="./assets/icons/Logotyp_text_svart.svg">
+			<h1>Vilken inriktning passar dig?</h1>
+			<img src="./assets/icons/tc-s.svg">
+		</header>
 		<main></main>
-		<script>
-		if ("serviceWorker" in navigator) {
-			navigator.serviceWorker.register("./service-worker.js", { scope: "./" });
-		}
-		</script>
+		<footer>
+			<div class="text-container">
+				<p>© 2025 TCStenungsund</p>
+				<p>
+					Källkod på
+					<a href="https://github.com/tcstenungsund/squiz">Github</a>
+				</p>
+			</div>
+			<script>
+			if ("serviceWorker" in navigator) {
+				navigator.serviceWorker.register("./service-worker.js", {
+					scope: "./",
+				});
+			}
+			</script>
+			<script type="module" src="./js/model/model.mjs"></script>
+			<script type="module" src="./js/controller/controller.mjs"></script>
+			<script type="module" src="./js/view/view.mjs"></script>
+		</footer>
 	</body>
 </html>
