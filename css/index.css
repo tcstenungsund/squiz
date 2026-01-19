@@ -71,9 +71,11 @@ article {
 		0px 0px 10px black;
 }
 
-#results p {
+article h2 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
 	margin: 0px;
-	font-size: 4vw;
 }
 
 #results h2 {
@@ -81,13 +83,6 @@ article {
 
 	/* hacky solution for pushing text up in a flex container */
 	margin-bottom: 15%;
-}
-
-article h2 {
-	font-size: 24px;
-	font-weight: bold;
-	text-align: center;
-	margin: 0px;
 }
 
 article form {
@@ -142,7 +137,7 @@ button[disabled] {
 
 #btn-container {
 	position: relative;
-	height: 48px;
+	height: 67px;
 }
 
 #next-btn {
@@ -195,4 +190,9 @@ footer div p {
 
 footer div p a {
 	color: var(--text-secondary);
+}
+
+#results p {
+	margin: 0px;
+	font-size: 4vw;
 }
