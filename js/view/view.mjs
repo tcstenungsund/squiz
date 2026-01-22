@@ -4,22 +4,37 @@ export class View {
 	}
 
 	renderResult(result, image_path) {
-		let result_header;
-
-		if (result.length === 1) {
-			result_header = "Den linje som passar dig bäst är:";
-		} else {
-			result_header = "De linjer som passar dig bäst är;";
-		}
+		const result_cards_html = result
+			.map(
+				(item, index) => `
+					<div class="container">
+						<div class="card">
+							<div class="front"></div>
+							<div class="back">
+								<h2>${item}</h2>
+								<p>Result ${index + 1}</p>
+							</div>
+						</div>
+					</div>
+				`,
+			)
+			.join("");
 
 		this.container.innerHTML = `
 			<article id="results">
-				<p>${result_header}</p>
-				<h2>${formatResultText(result)}!</h2>
+				<div class="cards-wrapper">
+					${result_cards_html}
+				</div>
 			</article>
 		`;
 
 		this.container.style.backgroundImage = `url(${image_path})`;
+
+		this.container.querySelectorAll(".container").forEach((container) => {
+			container.addEventListener("click", function () {
+				this.classList.toggle("flipped");
+			});
+		});
 	}
 
 	renderQuestion(question, selected_answer, on_answer_change) {
@@ -99,11 +114,4 @@ export class View {
 	showError(error) {
 		document.body.innerHTML += `<div class="error">${error}</div>`;
 	}
-}
-
-function formatResultText(result) {
-	if (result.length === 0) return "";
-	if (result.length === 1) return result[0];
-	if (result.length === 2) return `${result[0]} eller ${result[1]}`;
-	return `${result.slice(0, -1).join(", ")} eller ${result[result.length - 1]}`;
 }

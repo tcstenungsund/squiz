@@ -44,10 +44,9 @@ export class Model {
 			}
 		}
 
-		const max_score = Math.max(...Object.values(scores));
-		this.results = Object.keys(scores).filter(
-			(key) => scores[key] === max_score && max_score > 0,
-		);
+		this.results = Object.keys(scores)
+			.sort((a, b) => scores[b] - scores[a])
+			.slice(0, 3);
 	}
 
 	getResultImage() {
