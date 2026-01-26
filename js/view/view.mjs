@@ -1,3 +1,5 @@
+import { Carousel } from "./carousel.mjs";
+
 export class View {
 	constructor() {
 		this.container = document.querySelector("main");
@@ -28,8 +30,12 @@ export class View {
 				<div class="cards-wrapper">
 					${result_cards_html}
 				</div>
+				<button class="nav prev">previous</button>
+				<button class="nav next">next</button>
 			</article>
 		`;
+
+		new Carousel(this.container.querySelector("#results"));
 
 		this.container.style.backgroundImage = `url(${image_path})`;
 
