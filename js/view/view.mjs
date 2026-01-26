@@ -9,10 +9,13 @@ export class View {
 				(item, index) => `
 					<div class="container">
 						<div class="card">
-							<div class="front"></div>
+							<div class="front">
+								<span>${index + 1}</span>
+								<h2>${item.title}</h2>
+								<p>Tryck för mer info</p>
+							</div>
 							<div class="back">
-								<h2>${item}</h2>
-								<p>Result ${index + 1}</p>
+								<p>${item.info}</p>
 							</div>
 						</div>
 					</div>

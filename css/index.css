@@ -233,6 +233,11 @@ footer div p a {
 	box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
 	position: absolute;
 	backface-visibility: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
 }
 
 .front {
@@ -242,10 +247,5 @@ footer div p a {
 .back {
 	background-color: #3a3a3a;
 	transform: rotateY(180deg);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 5rem;
 }
 /* END OF TODO: Comply with style guide */

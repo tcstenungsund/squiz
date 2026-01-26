@@ -54,13 +54,13 @@ export class Model {
 	}
 
 	getResults() {
-		const results_labels = [];
+		const result_objects = [];
 
 		for (let i = 0; i < this.results.length; i++) {
-			results_labels.push(formatLabel(this.results[i]));
+			result_objects.push(formatResult(this.results[i]));
 		}
 
-		return results_labels;
+		return result_objects;
 	}
 
 	async loadQuestions() {
@@ -91,17 +91,17 @@ export class Model {
 }
 
 const labels = {
-	tei: "Informations- och medieteknik",
-	tet: "Teknikvetenskap",
-	ted: "Design och produktutveckling",
-	tes: "Samhällsbyggande och miljö",
-	tep: "Produktionsteknik",
-	indDrift: "Driftsäkerhet och underhåll",
-	indProcess: "Processteknik",
-	indProduct: "Produkt och maskinteknik",
-	indSvets: "Svetsteknik",
+	tei: { title: "Informations- och medieteknik", info: "test" },
+	tet: { title: "Teknikvetenskap", info: "test" },
+	ted: { title: "Design och produktutveckling", info: "test" },
+	tes: { title: "Samhällsbyggande och miljö", info: "test" },
+	tep: { title: "Produktionsteknik", info: "test" },
+	indDrift: { title: "Driftsäkerhet och underhåll", info: "test" },
+	indProcess: { title: "Processteknik", info: "test" },
+	indProduct: { title: "Produkt och maskinteknik", info: "test" },
+	indSvets: { title: "Svetsteknik", info: "test" },
 };
 
-function formatLabel(key) {
+function formatResult(key) {
 	return labels[key] ?? key;
 }
