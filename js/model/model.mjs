@@ -91,15 +91,15 @@ export class Model {
 }
 
 const labels = {
-	tei: { title: "Informations- och medieteknik", info: "test" },
-	tet: { title: "Teknikvetenskap", info: "test" },
-	ted: { title: "Design och produktutveckling", info: "test" },
-	tes: { title: "Samhällsbyggande och miljö", info: "test" },
-	tep: { title: "Produktionsteknik", info: "test" },
-	indDrift: { title: "Driftsäkerhet och underhåll", info: "test" },
-	indProcess: { title: "Processteknik", info: "test" },
-	indProduct: { title: "Produkt och maskinteknik", info: "test" },
-	indSvets: { title: "Svetsteknik", info: "test" },
+	tei: { title: "Informations- och medieteknik", info: "Inriktningen fokuserar på datorkommunikation, programmering och webbutveckling. Du lär dig hur datorer fungerar och kommunicerar över nätverk." },
+	tet: { title: "Teknikvetenskap", info: "Inriktningen teknikvetenskap omfattar kunskaper om och färdigheter i teknikvetenskapens arbetsmetoder och verktyg för matematisk modellering, simulering, styrning och reglering." },
+	ted: { title: "Design och produktutveckling", info: "Inriktningen ska ge dig kunskaper och färdigheter i design och produktutveckling. Idag är självklart datorstyrd design och konstruktion det centrala metoderna. " },
+	tes: { title: "Samhällsbyggande och miljö", info: "Inriktningen ska ge dig kunskaper om och färdigheter i samhällsbyggande, miljö och arkitektur. Såväl byggande som miljö ska ses från många perspektiv; tekniskt, estetiskt, socialt, ekonomiskt och ekologiskt." },
+	tep: { title: "Produktionsteknik", info: "Inriktningen ska ge dig kunskaper och färdigheter i produktion och företagande. Det innebär att behandla automation, hur produktionslinjer styrs och produktionskunskaper inom olika områden." },
+	indDrift: { title: "Driftsäkerhet och underhåll", info: "Inriktningen ska ge dig kunskaper om det strategiska och systematiska underhållets betydelse för utrustningars funktionalitet och en säker drift." },
+	indProcess: { title: "Processteknik", info: "Inriktningen ska ge dig kunskaper och färdigheter i produktion och företagande. Det innebär att behandla automation, hur produktionslinjer styrs och produktionskunskaper inom olika områden." },
+	indProduct: { title: "Produkt och maskinteknik", info: "Inriktningen ska ge dig kunskaper om hantering av verktyg och industriella utrustningar samt om hantering och bearbetning av ett visst material." },
+	indSvets: { title: "Svetsteknik", info: "Inriktningen ska ge dig kunskaper om och handlag med olika svetstekniker, plåtbearbetning och tillhörande arbetsmoment." },
 };
 
 function formatResult(key) {
