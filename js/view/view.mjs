@@ -1,5 +1,3 @@
-import { Carousel } from "./carousel.mjs";
-
 export class View {
 	constructor() {
 		this.container = document.querySelector("main");
@@ -9,43 +7,64 @@ export class View {
 		const result_cards_html = result
 			.map(
 				(item, index) => `
-					<div class="container">
-						<div class="card">
-							<div class="front">
-								<span>${index + 1}</span>
-								<h2>${item.title}</h2>
-								<p>Tryck för mer info</p>
-							</div>
-							<div class="back">
-								<p>${item.info}</p>
-							</div>
-						</div>
-					</div>
-				`,
+                <div class="container">
+                    <div class="card">
+                        <div class="front">
+                            <span>${index + 1}</span>
+                            <h2>${item.title}</h2>
+                            <p>Tryck för mer info</p>
+                        </div>
+                        <div class="back">
+                            <p>${item.info}</p>
+                        </div>
+                    </div>
+                </div>
+            `,
 			)
 			.join("");
-
 		this.container.innerHTML = `
-			<article id="results">
-				<div class="cards-wrapper">
-					${result_cards_html}
-				</div>
-				<button class="nav prev">previous</button>
-				<button class="nav next">next</button>
-			</article>
-		`;
+        <article id="results">
+            <div class="cards-wrapper">
+                ${result_cards_html}
+            </div>
+            <button class="nav prev">previous</button>
+            <button class="nav next">next</button>
+        </article>
+    `;
 
-		new Carousel(this.container.querySelector("#results"));
+		// ADD THIS LINE - it was missing!
+		const containers = document.querySelectorAll(".container");
+		let current_index = 0;
+
+		// Show first card
+		if (containers.length > 0) {
+			containers[0].classList.add("active");
+		}
+
+		// Navigation buttons
+		document.querySelector(".nav.prev").addEventListener("click", () => {
+			if (current_index > 0) {
+				containers[current_index].classList.remove("active");
+				current_index--;
+				containers[current_index].classList.add("active");
+			}
+		});
+
+		document.querySelector(".nav.next").addEventListener("click", () => {
+			if (current_index < containers.length - 1) {
+				containers[current_index].classList.remove("active");
+				current_index++;
+				containers[current_index].classList.add("active");
+			}
+		});
 
 		this.container.style.backgroundImage = `url(${image_path})`;
-
 		this.container.querySelectorAll(".container").forEach((container) => {
 			container.addEventListener("click", function () {
 				this.classList.toggle("flipped");
 			});
 		});
 	}
-
 	renderQuestion(question, selected_answer, on_answer_change) {
 		const answers_html = question.answers
 			.map((answer, index) => {
