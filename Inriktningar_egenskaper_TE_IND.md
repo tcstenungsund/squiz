@@ -13,6 +13,7 @@ tags:
 ## Teknikprogrammet (TE)
 
 ### TE - Informations- och medieteknik
+
 - Analytisk formaga
 - Problemlosningsformaga
 - Felsokningsformaga
@@ -25,6 +26,7 @@ tags:
 - Sakerhetsmedvetenhet
 
 ### TE - Teknikvetenskap
+
 - Matematisk formaga
 - Analytisk formaga
 - Abstrakt tankande
@@ -37,6 +39,7 @@ tags:
 - Uthallighet
 
 ### TE - Design och produktutveckling
+
 - Kreativitet
 - Visualiseringsformaga
 - Teknikintresse
@@ -49,6 +52,7 @@ tags:
 - Iterativt arbetssatt (unika)
 
 ### TE - Samhallsbyggande och miljo
+
 - Hallbarhetstank
 - Analytisk formaga
 - Systemtankande
@@ -61,6 +65,7 @@ tags:
 - Rumslig formaga (unika)
 
 ### TE - Produktionsteknik
+
 - Processforstaelse
 - Systemtankande
 - Problemlosningsformaga
@@ -73,6 +78,7 @@ tags:
 - Teknikintresse
 
 ### IND - Driftsakerhet och underhall
+
 - Felsokningsformaga
 - Sakerhetsmedvetenhet
 - Noggrannhet och kvalitet
@@ -85,6 +91,7 @@ tags:
 - Uthallighet
 
 ### IND - Processteknik
+
 - Processforstaelse
 - Sakerhetsmedvetenhet
 - Noggrannhet och kvalitet
@@ -97,6 +104,7 @@ tags:
 - Teknikintresse
 
 ### IND - Produkt och maskinteknik
+
 - Praktiskt handlag
 - Mekanisk forstaelse (unika)
 - Material- och ritningsforstaelse
@@ -109,6 +117,7 @@ tags:
 - Teknikintresse
 
 ### IND - Svetsteknik
+
 - Praktiskt handlag
 - Noggrannhet och kvalitet
 - Sakerhetsmedvetenhet
@@ -120,12 +129,10 @@ tags:
 - Talamod (unika)
 - Teknikintresse
 
-
-
-## Yrken efter gymnasiet 
-
+## Yrken efter gymnasiet
 
 ### TE - Informations- och medieteknik
+
 - Apputvecklare
 - Spelutvecklare
 - IT-sakerhet (SOC-analytiker/junior sakerhetstekniker)
@@ -133,6 +140,7 @@ tags:
 - Webbutvecklare (fullstack)
 
 ### TE - Teknikvetenskap
+
 - Robotics-/automationsingenjor
 - AI-/mjukvaruingenjor (efter vidare studier)
 - Berakningsingenjor (simulering)
@@ -140,6 +148,7 @@ tags:
 - El-/elektronikingenjor
 
 ### TE - Design och produktutveckling
+
 - Industridesigner / produktdesigner
 - CAD-konstruktor (3D-design)
 - Prototyptekniker
@@ -147,6 +156,7 @@ tags:
 - 3D-visualiserare
 
 ### TE - Samhallsbyggande och miljo
+
 - Arkitekt (efter vidare studier)
 - BIM-/CAD-samordnare
 - Byggprojektledare
@@ -154,6 +164,7 @@ tags:
 - Energiingenjor / energispecialist
 
 ### TE - Produktionsteknik
+
 - Robot-/automationstekniker
 - Produktionstekniker
 - Lean-/forbattringsledare
@@ -161,6 +172,7 @@ tags:
 - Processutvecklare
 
 ### IND - Driftsakerhet och underhall
+
 - Servicetekniker (resa & fixa problem)
 - Underhallstekniker (mek/el)
 - Industrielektriker
@@ -168,6 +180,7 @@ tags:
 - Driftsakerhetstekniker (reliability)
 
 ### IND - Processteknik
+
 - Processoperator (kontrollrum/overvakning)
 - Drifttekniker (ansvar i anlaggning)
 - Reningsverksoperator (miljo + teknik)
@@ -175,6 +188,7 @@ tags:
 - Energianlaggningsoperator
 
 ### IND - Produkt och maskinteknik
+
 - CNC-operator (tillverka coola delar)
 - Mekanikmontor (bygga maskiner/produkter)
 - Maskinstallare / riggare
@@ -182,6 +196,7 @@ tags:
 - Underhallsmekaniker
 
 ### IND - Svetsteknik
+
 - TIG-svetsare (precision)
 - Rorsvetsare (specialist)
 - Konstruktionssvetsare (stora byggen)

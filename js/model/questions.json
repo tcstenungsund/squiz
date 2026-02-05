@@ -109,7 +109,7 @@
 			]
 		},
 		{
-			"id": 2,
+			"id": 3,
 			"text": "Hur vill du arbeta med andra människor?",
 			"answers": [
 				{
@@ -138,7 +138,7 @@
 			]
 		},
 		{
-			"id": 3,
+			"id": 4,
 			"text": "Vilket av följande skulle du helst göra i ett jobb?",
 			"answers": [
 				{
@@ -174,7 +174,7 @@
 			]
 		},
 		{
-			"id": 4,
+			"id": 5,
 			"text": "Hur ser du på att plugga vidare efter gymnasiet?",
 			"answers": [
 				{
@@ -201,7 +201,7 @@
 			]
 		},
 		{
-			"id": 5,
+			"id": 6,
 			"text": "Tycker du om att arbeta praktiskt?",
 			"answers": [
 				{
@@ -228,7 +228,7 @@
 			]
 		},
 		{
-			"id": 6,
+			"id": 7,
 			"text": "Vad är du mest intresserad av att lära dig mer om?",
 			"answers": [
 				{
@@ -254,7 +254,7 @@
 			]
 		},
 		{
-			"id": 7,
+			"id": 8,
 			"text": "Är du en person som föredrar rutiner och förutsägbara uppgifter?",
 			"answers": [
 				{
@@ -278,7 +278,7 @@
 			]
 		},
 		{
-			"id": 8,
+			"id": 9,
 			"text": "Hur ser du dig själv som en problemlösare?",
 			"answers": [
 				{
