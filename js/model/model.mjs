@@ -117,7 +117,7 @@ const labels = {
 	},
 	indProcess: {
 		title: "Processteknik",
-		info: "Inriktningen ska ge dig kunskaper och färdigheter i produktion och företagande. Det innebär att behandla automation, hur produktionslinjer styrs och produktionskunskaper inom olika områden.",
+		info: "Inriktningen ska ge dig kunskaper om kemiska eller mekaniska industriprocesser, kvalitetskontroll samt styr- och reglerteknik.",
 	},
 	indProduct: {
 		title: "Produkt och maskinteknik",
